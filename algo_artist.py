@@ -109,7 +109,7 @@ pages = {
 
 # Create an option menu for navigation
 with st.sidebar:
-    st.image('mtc_logo.png')
+    st.image('gdsc_logo.png')
     selected = option_menu(
         menu_title="Navigation",
         options=list(pages.keys()),
